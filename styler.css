@@ -1,0 +1,203 @@
+.btn {
+	width: 90px;
+	height: 50px;
+	background-color: #f4f4f4;
+	border-radius: 4px;
+	margin-left: 4px;
+	margin-top: 4px;
+	text-transform: uppercase;
+	font-size: 27px;
+    padding: 0;
+	cursor: pointer;
+    border: 0;
+    padding: 0;
+    outline: none;
+
+
+}
+
+#decimal {
+	width: 90px;
+	height: 50px;
+	background-color: #f4f4f4;
+	border-radius: 4px;
+	margin-left: 4px;
+	margin-top: 4px;
+	text-transform: uppercase;
+	font-size: 27px;
+    padding: 0;
+	cursor: pointer;
+    border: 0;
+    padding: 0;
+    outline: none;
+
+
+}
+.eq {
+	width: 90px;
+	height: 50px;
+	background-color: #f4f4f4;
+	border-radius: 4px;
+	margin-left: 4px;
+	margin-top: 4px;
+	text-transform: uppercase;
+	font-size: 27px;
+    padding: 0;
+	cursor: pointer;
+    border: 0;
+    padding: 0;
+    outline: none;
+
+
+
+}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#op {
+	 border: 0;
+    padding: 0;
+    outline: none;
+}
+#op:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.eq:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.eq {
+	width: 90px;
+	height: 50px;
+	background-color: #f4f4f4;
+	border-radius: 4px;
+	margin-left: 4px;
+	margin-top: 4px;
+	text-transform: uppercase;
+	font-size: 27px;
+    padding: 0;
+	cursor: pointer;
+
+}
+.zero {
+	width: 190px;
+	height: 50px;
+	background-color: #f4f4f4;
+	border-radius: 4px;
+	margin-left: 4px;
+	margin-top: 4px;
+	text-transform: uppercase;
+	font-size: 27px;
+    padding: 0;
+	cursor: pointer;
+
+}
+
+
+#c:hover {
+background: #FF0000;
+
+}
+
+.eq:hover {
+background: #777;
+
+}
+
+#decimal:hover {
+background: #77b900;
+
+}
+#ce:hover {
+background: #FF0000;
+
+}
+#number:hover{
+	background: #005999;
+}
+#op:hover{
+
+	background: #9CD;
+}
+
+
+body {
+	background-image: url(1.jpg);
+	background-size: cover;
+}
+
+
+
+.draggable {
+max-width: 400px;
+max-height: 365px;
+background-color: #fff;
+margin: 50px;
+border: 2px solid #000;
+border-radius: 5px;
+position: absolute;
+opacity: 0.9;
+filter: alpha(opacity=50); /* For IE8 and earlier */
+float: right;
+}
+
+.calc-display {
+width: 400px;
+height: 50px;
+background-color: #000;
+border: none;
+color: #66f657;
+text-align: right;
+font-size: 54px;
+
+
+
+}
+
+
+@media (max-width: 992px) {
+	/*.draggable {*/
+
+
+}
+
+@media (max-width: 768px) {
+	
+}
+
+@media (max-width: 480px) {
+	
+	.draggable {
+		width: 240px;
+		height: 440px;
+	}
+	.btn {
+		width: 50px;
+	}
+	.zero {
+		width: 110px;
+	}
+
+	#decimal {
+		width: 45px;
+	}
+
+	.eq {
+		width: 45px;
+	}
+	.calc-display {
+		width: 203px;
+		font-size: 38px;
+	}
+
+}
