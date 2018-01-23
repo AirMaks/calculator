@@ -1,104 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Calculator</title>
-    <meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="styler.css">
-</head>
-<body>
-	<main class="page">
-		<h1>THE BEST CALCULATOR EVER</h1>
-		<div class="container"   >
-			<div class="left__page">
-				<div class="draggable">
-					<div class="calc">
-						<div class="calc__display">
-							<input value="0" type="text" class="calc-display" id="display" size="12"  disabled />
-						</div>
-						<div class="calc__buttons">
-							<table class="calc__table">
-								<tr class="calc__buttons-row">
-									<td>
-										<button type="button" id="ce" class="btn clear">CE</button>
-									</td>
-									<td>
-										<button type="button" id="c" class="btn clear">C</button>
-									</td>
-									<td>
-										<button type="button" id="op" class="btn operation">/</button>
-									</td>
-									<td>
-										<button type="button" id="op" class="btn operation">*</button>
-									</td>
-								</tr>
-									<tr class="">
-									<td>
-										<button type="button" id="" class="btn number">7</button>
-									</td>
-									<td>
-										<button type="button" id="number" class="btn number">8</button>
-									</td>
-									<td>
-										<button type="button" id="number" class="btn number">9</button>
-									</td>
-									<td>
-										<button type="button" id="op" class="btn operation">+</button>
-									</td>
-								</tr>
-								<tr class="">
-									<td>
-										<button type="button" id="number" class="btn number">4</button>
-									</td>
-									<td>
-										<button type="button" id="number" class="btn number">5</button>
-									</td>
-									<td>
-										<button type="button" id="number" class="btn number">6</button>
-									</td>
-									<td>
-										<button type="button" id="op" class="btn operation">-</button>
-									</td>
-								</tr>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Template</title>
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
 
-								<tr class="" >
-									<td >
-										<button type="button" id="number" class="btn number">1</button>
-									</td>
-									<td>
-										<button type="button" id="number" class="btn number">2</button>
-									</td>
-									<td>
-										<button type="button" id="number" class="btn number">3</button>
-									</td>
-									<td>
-										<button type="button" id="result" class="eq operation">=</button>
-									</td>
-								</tr>
-							</table>
-							<table class="calc__table">
-								<tr class="">
-									<td>
-										<button type="button" id="number"  class="btn zero number" >0</button>
-									</td>
-									<td>
-										<button type="button" id="decimal" class="btn">.</button>
-									</td>
-									<td>
-										<button type="button" id="op" class="btn">%</button>
-									</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
-<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/overcast/jquery-ui.css" />
-<script src="main.js"></script>
-</body>
+<div class="container">
+  <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
+          <div class="left__page">
+        <div class="draggable">
+          <div class="calc">
+            <div class="calc__display">
+              <input value="0" type="text" class="calc-display" id="display" disabled />
+            </div>
+            <div class="calc__buttons">
+              <table class="calc__table">
+                <tr class="calc__buttons-row">
+                  <td>
+                    <button type="button" id="ce" class="btn clear">CE</button>
+                  </td>
+                  <td>
+                    <button type="button" id="c" class="btn clear">C</button>
+                  </td>
+                  <td>
+                    <button type="button" id="op" class="btn operation">/</button>
+                  </td>
+                  <td>
+                    <button type="button" id="op" class="btn operation">*</button>
+                  </td>
+                </tr>
+                  <tr class="">
+                  <td>
+                    <button type="button" id="" class="btn number">7</button>
+                  </td>
+                  <td>
+                    <button type="button" id="number" class="btn number">8</button>
+                  </td>
+                  <td>
+                    <button type="button" id="number" class="btn number">9</button>
+                  </td>
+                  <td>
+                    <button type="button" id="op" class="btn operation">+</button>
+                  </td>
+                </tr>
+                <tr class="">
+                  <td>
+                    <button type="button" id="number" class="btn number">4</button>
+                  </td>
+                  <td>
+                    <button type="button" id="number" class="btn number">5</button>
+                  </td>
+                  <td>
+                    <button type="button" id="number" class="btn number">6</button>
+                  </td>
+                  <td>
+                    <button type="button" id="op" class="btn operation">-</button>
+                  </td>
+                </tr>
+
+                <tr class="" >
+                  <td >
+                    <button type="button" id="number" class="btn number">1</button>
+                  </td>
+                  <td>
+                    <button type="button" id="number" class="btn number">2</button>
+                  </td>
+                  <td>
+                    <button type="button" id="number" class="btn number">3</button>
+                  </td>
+                  <td>
+                    <button type="button" id="result" class="eq operation">=</button>
+                  </td>
+                </tr>
+              </table>
+              <table class="calc__table">
+                <tr class="">
+                  <td>
+                    <button type="button" id="number"  class="btn zero number" >0</button>
+                  </td>
+                  <td>
+                    <button type="button" id="decimal" class="btn">.</button>
+                  </td>
+                  <td>
+                    <button type="button" id="op" class="btn">%</button>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <script src="js/main.js"></script>  
+  </body>
 </html>
